@@ -1,6 +1,6 @@
 <div align="center">
 
-![fee-bump-studio-app banner](assets/banner.svg)
+![FeeBumpStudio App banner](assets/banner.svg)
 
 # FeeBumpStudio App
 
@@ -18,13 +18,9 @@
 
 ## Why this exists
 
-A developer workflow for **inspecting a transaction, estimating a replacement fee,
-preparing fee-bump envelopes, and keeping the original transaction intent visible
-for review**.
+A developer workflow for **inspecting a transaction, estimating a replacement fee, preparing fee-bump envelopes, and keeping the original transaction intent visible for review**.
 
-This repository is the **user-facing side** of FeeBumpStudio. It turns the protocol
-behavior into a workflow that a person can inspect, understand, and test. It should
-never hide important Stellar operations behind unexplained automation.
+This repository is the **user-facing side** of FeeBumpStudio. It turns the protocol behavior into a workflow that a person can inspect, understand, and test. It should never hide important Stellar operations behind unexplained automation.
 
 ### Where this repo fits
 
@@ -45,8 +41,7 @@ never hide important Stellar operations behind unexplained automation.
 - Every protocol action is **explained before wallet approval** is requested
 - Errors preserve **enough context** to diagnose what happened
 
-> ⚠️ **Status:** this is a development baseline. It is **not audited** and **not
-> production-ready**. Do not use it with mainnet funds or production credentials.
+> ⚠️ **Status:** this is a development baseline. It is **not audited** and **not production-ready**. Do not use it with mainnet funds or production credentials.
 
 ## Architecture
 
@@ -60,8 +55,7 @@ flowchart LR
     C --> S
 ```
 
-The browser never contains server-side secrets. Network configuration belongs in
-environment variables and deployment settings.
+The browser never contains server-side secrets. Network configuration belongs in environment variables and deployment settings.
 
 ## Tech stack
 
@@ -107,9 +101,9 @@ cp .env.example .env.local
 | `STELLAR_NETWORK` | Which network the app targets (`testnet` by default) |
 | `STELLAR_RPC_URL` | Soroban RPC endpoint URL (leave empty for the public Testnet default) |
 | `STELLAR_CONTRACT_ID` | Deployed Soroban contract ID the app should interact with |
+| `PORT` | Port the development server listens on (defaults to `3000`) |
 
-Do **not** paste production credentials into `.env.local`, and never commit `.env*`.
-`.gitignore` explicitly excludes `.env`/`.env.*` while keeping `.env.example`.
+Do **not** paste production credentials into `.env.local`, and never commit `.env*`. `.gitignore` explicitly excludes `.env`/`.env.*` while keeping `.env.example`.
 
 ## Running locally
 
@@ -119,8 +113,7 @@ npm run dev
 
 ## Testing
 
-The CI workflow currently validates repository structure (README, SECURITY,
-CONTRIBUTING). Add component tests as the workflow screens take shape:
+The CI workflow currently validates repository structure (README, SECURITY, CONTRIBUTING). Add component tests as the workflow screens take shape:
 
 ```bash
 npm run build   # Next.js type-checks the app during build
@@ -133,9 +126,7 @@ npm run build   # static/runtime build
 npm start       # serve the production build
 ```
 
-Deploy the Next.js app anywhere Node runs (Vercel, containers, self-hosted).
-Ship only **public** network/contract config to the browser; keep server-side
-secrets in deployment settings.
+Deploy the Next.js app anywhere Node runs (Vercel, containers, self-hosted). Ship only **public** network/contract config to the browser; keep server-side secrets in deployment settings.
 
 ## Roadmap
 
@@ -148,19 +139,15 @@ secrets in deployment settings.
 
 ## Contributing
 
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before
-opening a PR.
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a PR.
 
 ## Security
 
-Please report vulnerabilities privately instead of filing public issues — see
-[SECURITY.md](SECURITY.md).
+Please report vulnerabilities privately instead of filing public issues — see [SECURITY.md](SECURITY.md).
 
 ## Code of Conduct
 
-Be kind and respectful. This project follows contributor norms of good conduct as
-described in [CONTRIBUTING.md](CONTRIBUTING.md); a dedicated Code of Conduct file is
-coming as the community grows.
+Be kind and respectful. This project follows contributor norms of good conduct as described in [CONTRIBUTING.md](CONTRIBUTING.md); a dedicated Code of Conduct file is coming as the community grows.
 
 ## Maintainer
 
