@@ -41,6 +41,19 @@ This repository is the **user-facing side** of FeeBumpStudio. It turns the proto
 - Every protocol action is **explained before wallet approval** is requested
 - Errors preserve **enough context** to diagnose what happened
 
+## Documentation
+
+📖 **Full documentation:** [https://feebumpstudio.github.io/fee-bump-studio-app/](https://feebumpstudio.github.io/fee-bump-studio-app/)
+
+The documentation site includes:
+- Getting Started guides
+- User Guide with workflow details
+- Developer Guide with architecture and contribution info
+- API Reference for Stellar SDK and Contract integration
+- Configuration reference
+- Deployment guides
+- Troubleshooting and FAQ
+
 > ⚠️ **Status:** this is a development baseline. It is **not audited** and **not production-ready**. Do not use it with mainnet funds or production credentials.
 
 ## Architecture

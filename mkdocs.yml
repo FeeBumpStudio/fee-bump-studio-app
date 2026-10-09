@@ -1,0 +1,121 @@
+site_name: FeeBumpStudio App
+site_description: The user-facing fee-bump workflow for Stellar transactions
+site_url: https://feebumpstudio.github.io/fee-bump-studio-app/
+repo_url: https://github.com/FeeBumpStudio/fee-bump-studio-app
+repo_name: FeeBumpStudio/fee-bump-studio-app
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2026 <a href="https://github.com/Jubilee-001">Jubilee</a>
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Prerequisites: getting-started/prerequisites.md
+      - Installation: getting-started/installation.md
+      - Configuration: getting-started/configuration.md
+      - First Run: getting-started/first-run.md
+  - User Guide:
+      - Overview: user-guide/overview.md
+      - Network Selection: user-guide/network.md
+      - Transaction Inspection: user-guide/transaction-inspection.md
+      - Fee Estimation: user-guide/fee-estimation.md
+      - Fee-Bump Preparation: user-guide/fee-bump-preparation.md
+      - History & Events: user-guide/history.md
+  - Developer Guide:
+      - Architecture: developer-guide/architecture.md
+      - Project Structure: developer-guide/project-structure.md
+      - Local Development: developer-guide/local-development.md
+      - Testing: developer-guide/testing.md
+      - Contributing: developer-guide/contributing.md
+  - API Reference:
+      - Stellar SDK Integration: api-reference/stellar-sdk.md
+      - Contract Interaction: api-reference/contract-interaction.md
+  - Configuration:
+      - Environment Variables: configuration/environment-variables.md
+      - Network Settings: configuration/network-settings.md
+  - Deployment:
+      - Build: deployment/build.md
+      - Hosting Options: deployment/hosting.md
+      - Environment Setup: deployment/environment-setup.md
+  - Troubleshooting:
+      - Common Errors: troubleshooting/common-errors.md
+      - Diagnostic Steps: troubleshooting/diagnostic-steps.md
+  - Security:
+      - Responsible Disclosure: security/responsible-disclosure.md
+      - Security Assumptions: security/assumptions.md
+      - Known Limitations: security/limitations.md
+  - FAQ: faq.md
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/FeeBumpStudio/fee-bump-studio-app
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/feebumpstudio
+  version:
+    provider: mike
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mermaid.js
