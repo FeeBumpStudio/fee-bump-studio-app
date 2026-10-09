@@ -2,15 +2,20 @@
   "name": "fee-bump-studio-app",
   "private": true,
   "version": "0.1.0",
+  "author": "Jubilee-001",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "typecheck": "tsc -p tsconfig.ci.json"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "@stellar/stellar-sdk": "17.2.1"
+    "@stellar/stellar-sdk": "17.2.1",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
   }
 }
