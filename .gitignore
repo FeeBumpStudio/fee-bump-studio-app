@@ -5,6 +5,7 @@ node_modules/
 target/
 .next/
 dist/
+site/
 coverage/
 *.log
 .DS_Store

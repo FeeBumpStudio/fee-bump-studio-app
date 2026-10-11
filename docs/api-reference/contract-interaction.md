@@ -232,6 +232,6 @@ See [fee-bump-studio-contracts deployment guide](https://feebumpstudio.github.io
 
 ## Resources
 
-- [Contract Source](../developer-guide/architecture.md#contracts)
+- [Contract Source](../developer-guide/architecture.md)
 - [Soroban SDK Docs](https://soroban.stellar.org/docs)
 - [Contract Deployment](../deployment/build.md)

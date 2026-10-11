@@ -137,7 +137,7 @@ Open PR against `main` branch. Fill out the PR template.
 - **No credentials in code** — Use environment variables
 - **No mainnet in CI** — Testnet only for automated tests
 - **Audit dependencies** — `npm audit` before merging
-- **Report vulnerabilities** — See [SECURITY.md](../../SECURITY.md)
+- **Report vulnerabilities** — See [SECURITY.md](../security/responsible-disclosure.md)
 
 ## Documentation Updates
 
@@ -161,7 +161,7 @@ When adding features, update:
 
 - **Discord/GitHub Discussions** — Design questions, architecture
 - **GitHub Issues** — Bugs, feature requests
-- **Security** — Private disclosure per [SECURITY.md](../../SECURITY.md)
+- **Security** — Private disclosure per [SECURITY.md](../security/responsible-disclosure.md)
 
 ## Recognition
 

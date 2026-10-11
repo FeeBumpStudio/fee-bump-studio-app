@@ -95,4 +95,4 @@ FEE_MAX_LEDGERS=5                 # Max ledgers for inclusion target
 
 - [Transaction Inspection](transaction-inspection.md)
 - [Fee-Bump Preparation](fee-bump-preparation.md)
-- [Backend API](../api-reference/backend-api.md)
+- [Backend API](https://feebumpstudio.github.io/fee-bump-studio-backend/)

@@ -151,4 +151,4 @@ npm test -- TransactionCard.test.tsx
 
 - [Local Development](local-development.md)
 - [Contributing](contributing.md)
-- [CI Workflow](../configuration/ci-cd.md)
+- [CI Workflow](https://github.com/FeeBumpStudio/fee-bump-studio-app/blob/main/.github/workflows/ci.yml)

@@ -83,6 +83,6 @@ The history view provides an auditable log of all protocol interactions:
 
 ## Related Documentation
 
-- [Backend Indexer](../api-reference/backend-api.md)
+- [Backend Indexer](https://feebumpstudio.github.io/fee-bump-studio-backend/)
 - [Contract Events](../api-reference/contract-interaction.md#events)
 - [Troubleshooting Failed Transactions](../troubleshooting/common-errors.md)

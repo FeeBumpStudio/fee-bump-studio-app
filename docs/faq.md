@@ -138,11 +138,11 @@ Yes, the app is designed for Vercel. Connect your GitHub repo and configure envi
 
 ### Can I run in Docker?
 
-Yes, a `Dockerfile` with `output: 'standalone'` works. See [Hosting Options](../deployment/hosting.md).
+Yes, a `Dockerfile` with `output: 'standalone'` works. See [Hosting Options](deployment/hosting.md).
 
 ### What about Kubernetes?
 
-See [Kubernetes example](../deployment/hosting.md#kubernetes-example) in hosting docs.
+See [Kubernetes example](deployment/hosting.md#kubernetes-example) in hosting docs.
 
 ## Security
 
@@ -152,7 +152,7 @@ See [Kubernetes example](../deployment/hosting.md#kubernetes-example) in hosting
 
 ### What if I find a vulnerability?
 
-Report privately via [GitHub Security Advisories](https://github.com/FeeBumpStudio/fee-bump-studio-app/security/advisories/new). See [Responsible Disclosure](../security/responsible-disclosure.md).
+Report privately via [GitHub Security Advisories](https://github.com/FeeBumpStudio/fee-bump-studio-app/security/advisories/new). See [Responsible Disclosure](security/responsible-disclosure.md).
 
 ## Roadmap
 

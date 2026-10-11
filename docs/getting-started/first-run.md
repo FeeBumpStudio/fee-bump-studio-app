@@ -33,7 +33,7 @@ The development baseline displays:
 - **Network: Testnet development configuration** status
 - Clean, minimal UI with system font
 
-![Baseline Screen](assets/baseline-screen.png)
+![Baseline Screen](https://raw.githubusercontent.com/FeeBumpStudio/fee-bump-studio-app/main/assets/banner.svg)
 
 ## Verify Network Connection
 
